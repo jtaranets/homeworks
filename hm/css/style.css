@@ -1,0 +1,129 @@
+.html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.body {
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+}
+
+.container {
+  width: 900px;
+  margin: 0 auto;
+}
+
+.main-header {
+  padding-top: 77px;
+  margin-bottom: 104px;
+}
+
+.main-nav {
+  text-align: center;
+}
+
+.main-nav-list {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  font-size: 0;
+}
+
+.main-nav-item {
+  list-style: none;
+  display: inline-block;
+  /*margin-right:130px;*/
+}
+.lifestyle {
+  margin-right: 132px;
+}
+
+.photodiary {
+  margin-right: 104px;
+}
+
+.music {
+  margin-right: 96px;
+}
+
+.main-nav-item li:last-child {
+  padding-right: 0;
+}
+
+.item-link {
+  text-decoration: none;
+  color: #626262;
+  text-transform: uppercase;
+  line-height: 24px;
+  font-size: 14px;
+}
+
+.item-link:hover {
+  color: #03a9f4;
+}
+
+.main-section {
+  margin-bottom: 70px;
+  font-size: 0;
+}
+
+.main-article {
+  display: inline-block;
+  width: 420px;
+  margin-right: 60px;
+}
+
+.main-article:nth-child(2n) {
+  margin-right: 0;
+}
+
+.subtitle {
+  font-size: 14px;
+  text-transform: uppercase;
+  text-align: left;
+  font-family: "Ubuntu", sans-serif;
+  color: #b4ad9e;
+  line-height: 17px;
+  padding: 31px 0 23px 0;
+  letter-spacing: 0px;
+}
+
+.title {
+  font-size: 30px;
+  text-align: left;
+  color: #626262;
+  line-height: 36px;
+  padding-bottom: 34px;
+}
+
+.description {
+  font-size: 14px;
+  text-align: left;
+  color: #626262;
+  line-height: 24px;
+  padding-bottom: 130px;
+  letter-spacing: 0;
+}
+
+.load-more-button {
+  text-align: center;
+}
+
+.main-button {
+  display: inline-block;
+  border: 1px solid #626262;
+  margin: 0;
+  padding: 20px 34px 16px 35px;
+  text-align: center;
+  color: #626262;
+  font-size: 20px;
+  line-height: 24px;
+  background-color: rgb(255, 255, 255);
+  font-family: "Playfair Display", serif;
+  cursor: pointer;
+}
