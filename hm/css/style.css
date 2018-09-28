@@ -8,9 +8,15 @@
   box-sizing: inherit;
 }
 
-.body {
+body {
   font-family: "Playfair Display", serif;
   font-size: 14px;
+}
+
+.img{
+  display: block;
+  max-width: 100%;
+  height:auto;
 }
 
 .container {
@@ -37,22 +43,11 @@
 .main-nav-item {
   list-style: none;
   display: inline-block;
-  /*margin-right:130px;*/
-}
-.lifestyle {
-  margin-right: 132px;
+  margin-right:125px;
 }
 
-.photodiary {
-  margin-right: 104px;
-}
-
-.music {
-  margin-right: 96px;
-}
-
-.main-nav-item li:last-child {
-  padding-right: 0;
+.main-nav-list li:last-child {
+  margin-right: 0;
 }
 
 .item-link {
