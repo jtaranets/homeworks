@@ -1,0 +1,33 @@
+body{
+    background-color: #98aeb8;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.list{
+    counter-reset: item;
+}
+
+
+
+.item{
+    list-style: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    counter-increment: item;
+    margin-bottom: 10px;
+}
+
+.item::before{
+    content:counter(item, upper-roman);
+    margin-right: 5px;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 30px;
+    background-color: #ffffff;
+}
+
+
+

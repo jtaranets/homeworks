@@ -1,0 +1,18 @@
+body{
+    background-color: #c7b4a9;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.item{
+    font-weight: 600;
+    text-transform: uppercase;
+    list-style: none;
+    color: #352b25;
+}
+
+.item::before{
+    content: "\2192";
+    display: inline-block;  
+    padding-right: 10px;
+    color: #352b25;
+}
