@@ -159,7 +159,7 @@ body{
    float: left;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    background-color: #323232;
+    background-color: rgb(50, 50, 50);
     color: #ffffff;
     width: 201px;
     font-weight: 900;
@@ -175,7 +175,7 @@ body{
     display: inline-block;
     display: block;
     float: right;
-    background-color: #8c8c8c;
+    background-color:rgba(50, 50, 50, 0.44);
     font-weight: 900;
     font-size: 18px;
     line-height: 1.8;
@@ -188,12 +188,12 @@ body{
 
 .product_link:hover .product_name{
     color: #ffffff;
-    background-color: #1abc9c;
+    background-color: rgb(26, 188, 156);
 }
 
 .product_link:hover .product_price{
     color: #ffffff;
-    background-color: #7fd9c7;
+    background-color: rgba(26, 188, 156, 0.44);
 }
 
 
