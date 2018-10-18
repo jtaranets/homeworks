@@ -161,7 +161,7 @@ body{
     text-transform: uppercase;
     background-color: rgb(50, 50, 50);
     color: #ffffff;
-    width: 201px;
+    width: 255px;
     font-weight: 900;
     font-size: 18px;
     line-height: 1.8;
@@ -175,7 +175,7 @@ body{
     display: inline-block;
     display: block;
     float: right;
-    background-color:rgba(50, 50, 50, 0.44);
+    background-color:rgba(255, 255, 255, 0.44);
     font-weight: 900;
     font-size: 18px;
     line-height: 1.8;
@@ -193,7 +193,7 @@ body{
 
 .product_link:hover .product_price{
     color: #ffffff;
-    background-color: rgba(26, 188, 156, 0.44);
+    background-color: rgba(255, 255, 255, 0.44);
 }
 
 
@@ -259,6 +259,7 @@ body{
     margin-left: 14px;
     display: inline-block;
 }
+
 
 
 
