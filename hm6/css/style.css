@@ -89,6 +89,10 @@ body{
 }
 
 /*-----------------TEAM SECTION----------------*/
+.amazing_services{
+    margin-bottom: 90px;
+}
+
 
 .team_we{
     font-family: var(--secondary-font);
@@ -119,8 +123,8 @@ body{
     justify-content: space-between;
     min-height: 241px;
     align-content: space-between;
-    margin-bottom: 90px;
 }
+    
 
 .services_item{
     width: 300px;
@@ -175,6 +179,10 @@ body{
     font-size: 15px;
 }
 
+.meet_our_team{
+    margin-bottom: 84px;
+}
+
 .meet_our_team_title{
     margin-bottom: 45px;
 }
@@ -191,7 +199,6 @@ body{
 .team_list{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 84px;
 }
 
 .team_item{
@@ -378,15 +385,19 @@ body{
 /*-------------------FOOTER------------*/
 .main_footer{
     height: 63px;
-}
-
-.footer_container{
-    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-top: 1px solid #e5e5e5;
 }
+
+/* .footer_container{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #e5e5e5;
+} */
 
 .rights{
     font-size: 14px;
