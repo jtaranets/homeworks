@@ -1,11 +1,11 @@
-@import "fonts.css";
+@import "../css/fonts.css";
 
 :root{
     --main-font: 'Montserrat';
     --main-font-weight: 400;
     --secondary-font:'Kaushan Script';
     --header-font-color: #95e1d3;
-    --main-font-color: #333333;
+    --main-font-color: #0e0707;
     --hover-color: #f38181;
     --description-font-color:#999999;
 }
@@ -233,7 +233,7 @@ body{
     z-index:1;
     top:0;
     left:0;
-    opacity: 0;
+    /* opacity: 0; */
 }
 
 .image_wrapper::after{
@@ -243,7 +243,7 @@ body{
     background: linear-gradient(to top, 
     rgba(252, 227, 138, 0.9), 
     rgba(243, 129, 129, 0.9));
-    display: block;
+    /* display: none; */
     position: absolute;
     z-index:3;
     top:0;
@@ -273,7 +273,8 @@ body{
 
 .link_socials{
     width: 57px;
-    height: 57px;    
+    height: 57px;
+    display: block;
 }
 
 .item_socials:hover{
@@ -290,39 +291,41 @@ body{
 }
 
 .link_socials_first::after{
-    background-image: url(../img/icons/socials/facebook.png);
+    background-image: url('../img/icons/socials/facebook.png');
 }
 
 .link_socials_second::after{
-    background-image: url(../img/icons/socials/twitter.png);
+    background-image: url('../img/icons/socials/twitter.png');
 }
 
 .link_socials_third::after{
-    background-image: url(../img/icons/socials/pinterest.png);
+    background-image: url('../img/icons/socials/pinterest.png');
 }
 
 .link_socials_fourth::after{
-    background-image: url(../img/icons/socials/instagram.png);
+    background-image: url('../img/icons/socials/instagram.png');
 }
 
 
   
 
-@keyframes blue-block-appears{
+/* @keyframes blue-block-appears{
     0%{
         opacity: 0;
     }
     100%{
         opacity: 1;
     }
-}
+} */
 
 @keyframes gradient-block-appears{
     0%{
-        opacity: 0;
+        /* display: none; */
+        opacity: 1;
         transform: translate(0, 0);
     }
     100%{
+        /* display: block; */
         opacity: 0.9;
         transform: translate(-10px, -10px);
     }
@@ -348,19 +351,19 @@ body{
     }
 }
 
-.team_item:hover .image_wrapper::after{
+.image_wrapper:hover::after{
     animation: gradient-block-appears 200ms linear;
 }
 
-.team_item:hover .image_wrapper::before{
-    animation: blue-block-appears 200ms linear;
-}
+/* .image_wrapper:hover .image_wrapper::before{
+    animation: blue-block-appears 2s linear;
+} */
 
-.team_item:hover .team_image{
+.image_wrapper:hover .team_image{
     animation: image-transition 200ms linear;
 }
 
-.team_item:hover .list_socials{
+.image_wrapper:hover .list_socials{
     animation: socials-appear 200ms linear;
 }
 
@@ -431,6 +434,7 @@ body{
     text-transform: uppercase;
     color: #ffffff;
     font-weight: 700;
+    cursor: pointer;
 }
 
 
