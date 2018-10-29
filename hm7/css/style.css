@@ -1,0 +1,226 @@
+@import "../css/fonts.css";
+
+:root {
+  --main-font-family: "Montserrat", sans-serif;
+  --logo-font-family: "Satisfy";
+  --italic-font-family: "Crimson Text", serif;
+  --description-font-family: "Roboto Slab", serif;
+  --main-color: #222222;
+  --hover-color: #fed136;
+  --italic-color: #777777;
+  --contact-us-color: #ffffff;
+  --placeholder-color: #bbbbbb;
+  --input-border-color: #cccccc;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--main-font-family);
+  color: var(--main-color);
+  font-weight: 400;
+}
+
+.img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.main_header {
+  padding-top: 45px;
+  margin-bottom: 126px;
+}
+
+.header_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.logo_link {
+  color: var(--hover-color);
+  font-family: var(--logo-font-family);
+  font-size: 26px;
+  text-decoration: none;
+}
+
+.nav_list {
+  display: flex;
+  justify-content: space-between;
+  width: 485px;
+}
+
+.nav_link {
+  font-size: 14px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--main-color);
+}
+
+.nav_link:hover {
+  color: var(--hover-color);
+}
+
+/* SECTION SERVICES */
+
+.section_title {
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.section_description {
+  font-family: var(--italic-font-family);
+  font-style: italic;
+  color: var(--italic-color);
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.services_list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.services_item{
+    width: 290px;
+}
+
+.services_item::before {
+  content: "";
+  width: 73px;
+  height: 73px;
+  border: 3px solid var(--hover-color);
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 24px;
+}
+
+.services_item:first-child::before {
+  background: url("../img/icons/Icon-Basket.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.services_item:nth-child(2)::before {
+  background: url("../img/icons/Icon-Laptop.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.services_item:last-child::before {
+  background: url("../img/icons/Icon-Locked.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.services_item_title {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: capitalize;
+  text-align: center;
+  margin-bottom: 19px;
+}
+
+.services_item_description {
+  font-family: var(--description-font-family);
+  font-size: 14px;
+  color: var(--italic-color);
+  text-align: center;
+  line-height: 1.2;
+}
+
+/* CONTACT US */
+
+.contact_us_wrapper {
+  background-color: var(--main-color);
+  background-image: url('../img/Map-Image.png');
+  background-position: 100% calc(100% - 19px);
+  background-repeat: no-repeat;
+}
+
+.contact_us_title {
+  color: var(--contact-us-color);
+  padding-top: 109px;
+}
+
+.contact_us_description {
+  margin-bottom: 76px;
+}
+
+.contact_us_form {
+  text-align: center;
+}
+
+.inputs_container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.input_list {
+  height: 212px;
+  width: 455px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.main-input {
+  width: 100%;
+  min-height: 50px;
+  padding-left: 21px;
+  box-sizing: border-box;
+  border: 1px solid var(--input-border-color);
+  border-radius: 2px;
+}
+
+.input_placeholder::placeholder {
+  text-transform: uppercase;
+  color: var(--placeholder-color);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.validation:invalid {
+  outline: solid red;
+}
+
+.validation:valid {
+  outline: solid green;
+}
+
+.textarea_field{
+    padding: 18px 0 0 20px;
+    min-width: 455px;
+    max-height: 100%;
+    box-sizing: border-box;
+    border: 1px solid var(--input-border-color);
+    border-radius: 5px;
+}
+
+.button {
+  background-color: var(--hover-color);
+  border-radius: 3px;
+  border: none;
+  padding: 26px 47px;
+  color: var(--contact-us-color);
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 18px;
+  margin-bottom: 115px;
+  cursor: pointer;
+  align-self: flex-end;
+}
