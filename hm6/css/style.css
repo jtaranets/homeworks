@@ -254,12 +254,12 @@ img{
 
 .list_socials{
     display: flex;
-    position: absolute;
-    top:207px;
-    left:78px;
-    /* top: 50%;
+    position: relative;
+    /* top:207px;
+    left:78px; */
+    top: 50%;
     left:50%;
-    transform: translate(-50%, -50%); */
+    transform: translate(-50%, -50%);
     z-index: 4;
     /* opacity: 0; */
     width: 237px;
