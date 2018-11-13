@@ -1,0 +1,57 @@
+@media screen and (min-width:320px) and (max-width:767px){
+    .container {
+        max-width: 91%;
+    }
+
+    .wrapper{
+        background-image: url("../img/VectorSmartObject_320.jpg");
+        padding-bottom: 13.6rem;
+        margin-bottom: 6.7rem;
+    }
+
+    .main_header {
+        padding-top: 2rem;
+        margin-bottom: 2.6rem;
+      }
+
+      .button_container {
+        margin-bottom: 11.2rem;
+      }
+
+      .holiday_dreams_title{
+        margin: 0 auto 1.6rem;
+      }
+
+      .holiday_dream_addition{
+        margin: 0 auto 2rem;
+        width: 74.4%;
+      }
+
+      .holiday_dream_button{
+        padding: 1.3rem 4.7rem;
+        /* width: 96.3%; */
+      }
+
+      .partner_title{
+        margin-bottom: 1.5rem;
+      }
+
+      .partner_list{
+        margin-bottom: 2.3rem;
+    }
+
+    .partner_item{
+        width: 76.28%;
+        margin: 0 auto 2.3rem;
+    }
+    
+    .partner_item:last-child{
+        margin-bottom: 0;
+    }
+
+    .partner_button{
+        padding: 1.3rem 7.1rem;
+        margin-bottom: 5.7rem;
+
+    }
+}

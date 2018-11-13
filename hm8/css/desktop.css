@@ -1,0 +1,38 @@
+@media (min-width:1440px){
+    .container{
+        max-width: 66.45%;
+    }
+
+    .wrapper{
+        background-image: url("../img/VectorSmartObject_1440.jpg");
+        margin-bottom: 6.7rem;
+    }
+
+    .holiday_dreams_title{
+        max-width: 54.33%;
+        margin: 0 auto 4.2rem;
+        font-size: 5.2rem;
+        margin-bottom: 3.6rem;
+    }
+
+    .holiday_dream_addition{
+        font-size: 2.4rem;
+        margin-bottom: 3.5rem;
+    }
+
+    .partner_container{
+        max-width: 65.27%;
+    }
+
+    .partner_list{
+        margin-bottom: 2.5rem;
+    }
+
+    .partner_item{
+        max-width: 23.4%;
+    }
+
+    .partner_button{
+        margin-bottom: 7.2rem;
+    }    
+}

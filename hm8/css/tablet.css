@@ -1,0 +1,106 @@
+@media (min-width: 768px) {
+  .wrapper {
+    padding-bottom: 23.4rem;
+    margin-bottom: 7rem;
+  }
+
+  .main_header {
+    padding-top: 3.8rem;
+    margin-bottom: 14.2rem;
+  }
+
+  .header_container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .holiday_dreams_title {
+    font-size: 5.2rem;
+    margin: 0 auto;
+  }
+
+  .holiday_dream_addition {
+    font-size: 2.4rem;
+  }
+
+  .holiday_dream_button {
+    padding: 1.2rem 2rem;
+    /* max-width: 45.32%; */
+  }
+
+  .partner_title {
+    margin-bottom: 3.1rem;
+}    
+
+  .partner_list {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .partner_item:nth-child(1) {
+    order: 1;
+  }
+
+  .partner_item:nth-child(3) {
+    order: 2;
+  }
+
+  .partner_item:nth-child(2) {
+    order: 3;
+  }
+
+  .partner_item:nth-child(4) {
+    order: 4;
+  }
+
+  .partner_button{
+    padding: 1.3rem 2.8rem;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1339px) {
+  .wrapper {
+    background-image: url("../img/VectorSmartObject_768.jpg");
+  }
+
+  .header_container {
+    max-width: 87.76%;
+  }
+
+  .holiday_dream_container {
+    max-width: 65.5%;
+  }
+
+  .holiday_dreams_title {
+    /* width: 65.75%; */
+    margin-bottom: 5.2rem;
+  }
+
+  .holiday_dream_addition {
+    margin-bottom: 4.5rem;
+  }
+
+  .partner_list {
+    flex-wrap: wrap;
+    max-width: 73%;
+    margin: 0 auto 3rem;
+  }
+
+  .partner_item {
+    width: 47.96%;
+  }
+
+  .partner_item:not(:nth-child(even)) {
+    margin-bottom: 5.1rem;
+  }
+
+  .partner_description {
+    max-width: 92.79%;
+  }
+
+  .partner_button {
+    margin-bottom: 4rem;
+  }
+}
