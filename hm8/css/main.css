@@ -17,12 +17,20 @@
   }
   
   /* HEADER */
+
+  .main_header{
+    position: absolute;
+    width: 100%;
+    top:0;
+    z-index: 999;
+  }
   
   .wrapper {
     /* min-width: 320px;
     max-width: 1440px; */
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
   }
   
   
@@ -62,7 +70,7 @@
   
   /* HOLIDAY DREAM */
 
-  .main_page_container{
+  .main_page{
       text-align: center;
   }
   

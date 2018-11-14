@@ -6,7 +6,7 @@
 
   .main_header {
     padding-top: 3.8rem;
-    margin-bottom: 14.2rem;
+    /* margin-bottom: 14.2rem; */
   }
 
   .header_container {
@@ -19,6 +19,7 @@
   .main_pages_title {
     font-size: 5.2rem;
     margin: 0 auto;
+    padding-top: 22.5rem;
   }
 
   .main_page_addition {
@@ -62,7 +63,8 @@
 
 @media screen and (min-width: 768px) and (max-width: 1439px) {
   .container{
-    max-width: 675px;
+    min-width: 675px;
+    max-width: 87.89%;
   }
 
   .wrapper {
@@ -73,9 +75,9 @@
     max-width: 87.76%;
   } */
 
-  .main_page_container {
+  /* .main_page_container {
     max-width: 75.55%;
-  }
+  } */
 
   .main_pages_title {
     /* width: 65.75%; */

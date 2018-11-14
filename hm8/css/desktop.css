@@ -1,6 +1,7 @@
 @media (min-width:1440px){
     .container{
-        max-width: 940px;
+        min-width: 940px;
+        max-width: 65.27%;
     }
 
     .wrapper{
