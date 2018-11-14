@@ -26,7 +26,7 @@
   }
   
   
-  .button_container {
+  .autorization {
     text-align: center;
   }
   
@@ -40,6 +40,7 @@
     font-weight: 700;
     box-sizing: border-box;
     padding: 1rem 1.7rem;
+    cursor: pointer;
   }
   
   .header_button:hover,
@@ -61,11 +62,11 @@
   
   /* HOLIDAY DREAM */
 
-  .holiday_dream_container{
+  .main_page_container{
       text-align: center;
   }
   
-  .holiday_dreams_title {
+  .main_pages_title {
     font-size: 3rem;
     font-weight: 700;
     color: var(--holiday-color);
@@ -74,7 +75,7 @@
     text-transform: uppercase;
   }
   
-  .holiday_dream_addition {
+  .main_page_addition {
     color: var(--holiday-color);
     font-family: var(--additional-font-family);
     font-size: 1.8rem;
@@ -82,7 +83,7 @@
     text-align: center;
   }
   
-  .holiday_dream_button {
+  .main_page_button {
     display: inline-block;;
     text-decoration: none;
     color: var(--holiday-color);
@@ -116,6 +117,7 @@
   
   .partner_img {
     display: inline-block;
+    border-radius: 50%;
   }
   
   .image_container::after {

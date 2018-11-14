@@ -16,16 +16,16 @@
     align-items: baseline;
   }
 
-  .holiday_dreams_title {
+  .main_pages_title {
     font-size: 5.2rem;
     margin: 0 auto;
   }
 
-  .holiday_dream_addition {
+  .main_page_addition {
     font-size: 2.4rem;
   }
 
-  .holiday_dream_button {
+  .main_page_button {
     padding: 1.2rem 2rem;
     /* max-width: 45.32%; */
   }
@@ -60,25 +60,29 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1339px) {
+@media screen and (min-width: 768px) and (max-width: 1439px) {
+  .container{
+    max-width: 675px;
+  }
+
   .wrapper {
     background-image: url("../img/VectorSmartObject_768.jpg");
   }
 
-  .header_container {
+  /* .header_container {
     max-width: 87.76%;
+  } */
+
+  .main_page_container {
+    max-width: 75.55%;
   }
 
-  .holiday_dream_container {
-    max-width: 65.5%;
-  }
-
-  .holiday_dreams_title {
+  .main_pages_title {
     /* width: 65.75%; */
     margin-bottom: 5.2rem;
   }
 
-  .holiday_dream_addition {
+  .main_page_addition {
     margin-bottom: 4.5rem;
   }
 
