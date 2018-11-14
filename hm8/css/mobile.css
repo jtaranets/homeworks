@@ -1,6 +1,8 @@
 @media screen and (min-width:320px) and (max-width:767px){
     .container {
-        width: 295px;
+        width: 320px;
+        padding: 0 1.4rem;
+        box-sizing: border-box;
         /* max-width: 91%; */
     }
 
@@ -26,7 +28,7 @@
 
       .main_page_addition{
         margin: 0 auto 2rem;
-        width: 74.4%;
+        width: calc((221 / 320) * 100%);
       }
 
       .main_page_button{

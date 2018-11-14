@@ -1,11 +1,14 @@
-@media (min-width:1440px){
+@media (min-width:940px){
     .container{
         width: 940px;
+        padding: 0 2rem;
+        box-sizing: border-box;
         /* max-width: 65.27%; */
     }
 
     .wrapper{
         background-image: url("../img/VectorSmartObject_1440.jpg");
+        background-position: center;
         margin-bottom: 6.7rem;
     }
 
