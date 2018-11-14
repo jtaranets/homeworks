@@ -1,7 +1,7 @@
 @media screen and (min-width:320px) and (max-width:767px){
     .container {
-        min-width: 295px;
-        max-width: 91%;
+        width: 295px;
+        /* max-width: 91%; */
     }
 
     .wrapper{

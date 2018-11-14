@@ -63,8 +63,8 @@
 
 @media screen and (min-width: 768px) and (max-width: 1439px) {
   .container{
-    min-width: 675px;
-    max-width: 87.89%;
+    width: 675px;
+    /* max-width: 87.89%; */
   }
 
   .wrapper {
