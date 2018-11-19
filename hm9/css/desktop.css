@@ -1,0 +1,46 @@
+@media (min-width:992px){
+    .container{
+        /* width: 940px; */
+        padding: 0 2rem;
+        box-sizing: border-box;
+        /* max-width: 65.27%; */
+    }
+
+    .wrapper{
+        background-image: url("../img/VectorSmartObject_1440.jpg");
+        background-position: center;
+        margin-bottom: 6.7rem;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+
+    .main_pages_title{
+        /* max-width: 54.33%; */
+        margin: 0 auto 4.2rem;
+        font-size: 5.2rem;
+        margin-bottom: 3.6rem;
+    }
+
+    .main_page_addition{
+        font-size: 2.4rem;
+        margin: 0 auto 3.5rem;
+    }
+
+
+    /* .partner_container{
+        max-width: 65.27%;
+    } */
+
+    .partner_list{
+        margin-bottom: 2.5rem;
+    }
+
+    .partner_item{
+        /* max-width: 23.4%; */
+    }
+
+    .partner_button{
+        margin:0 auto 7.2rem;
+    }    
+}

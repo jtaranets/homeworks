@@ -1,0 +1,64 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  /* .container {
+        width: 320px;
+        padding: 0 1.4rem;
+        box-sizing: border-box;
+    } */
+
+  .wrapper {
+    background-image: url("../img/VectorSmartObject_320.jpg");
+    padding-bottom: 13.6rem;
+    margin-bottom: 6.7rem;
+  }
+
+  .main_header {
+    padding-top: 2rem;
+    /* margin-bottom: 2.6rem; */
+  }
+
+  .autorization {
+    margin-bottom: 11.2rem;
+  }
+
+  .main_pages_title {
+    margin: 0 auto 1.6rem;
+    padding-top: 22.9rem;
+  }
+
+  .main_page_addition {
+    margin: 0 auto 2rem;
+    width: calc((251 / 320) * 100%);
+  }
+
+  .main_page_button {
+    padding: 1.3rem 4.7rem;
+    margin: 0 auto;
+    /* width: 96.3%; */
+  }
+
+  .partner_title {
+    margin-bottom: 1.5rem;
+  }
+
+  .partner_list {
+    margin-bottom: 2.3rem;
+  }
+
+  .partner_item {
+    margin: 0 auto 2.3rem;
+  }
+
+  .partner_item:last-child {
+    margin-bottom: 0;
+  }
+
+  .partner_description{
+    margin: 0 auto;
+    width: calc((251 / 320) * 100%);
+  }
+
+  .partner_button {
+    padding: 1.3rem 7.1rem;
+    margin: 0 auto 5.7rem;
+  }
+}
