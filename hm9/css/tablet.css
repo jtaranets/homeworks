@@ -8,16 +8,20 @@
   }
 
   .main_header {
-    padding-top: 3.8rem;
-    /* margin-bottom: 14.2rem; */
-  }
-
-  .header_content_container {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
     align-items: baseline;
+    padding-top: 3.8rem;
+    /* margin-bottom: 14.2rem; */
   }
+
+  /* .header_content_container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: baseline;
+  } */
 
   .main_pages_title {
     font-size: 5.2rem;
