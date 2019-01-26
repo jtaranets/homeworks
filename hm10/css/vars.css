@@ -1,0 +1,13 @@
+:root{
+    --main-font-family: "Montserrat", sans-serif;
+    --additional-font-family: "Roboto", sans-serif;
+    --cursive-font-family:"Kaushan Script", cursive;
+    --button-color: #95e1d3;
+    --main-text-color: #333333;
+    --additional-font-color: #999999;
+    --hover-color:#fce38a;
+    --border-color:#f38181;
+    --main-section-color:#ffffff;
+}
+
+
