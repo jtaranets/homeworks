@@ -1,0 +1,10 @@
+@mixin border-pseudo {
+  &::after {
+    content: "";
+    display: block;
+    width: 6rem;
+    margin: 4rem auto;
+    border-bottom: 3px solid $border-color;
+  }
+}
+

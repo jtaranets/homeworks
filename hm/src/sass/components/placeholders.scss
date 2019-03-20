@@ -1,0 +1,41 @@
+%capitalized-letter {
+  text-transform: uppercase;
+}
+
+%list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+%link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+%title {
+  margin: 0;
+}
+
+%cursive-title {
+  font-family: $cursive-font-family;
+}
+
+%bold-title {
+  font-family: $main-font-family;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+%services-and-team-section_cursive {
+  font-size: 2.4rem;
+  width: 41.4%;
+  margin: 0 auto 2.7rem;
+  display: block;
+}
+
+%services-and-team-section_bold {
+  font-size: 3rem;
+  margin-bottom: 6.5rem;
+  display: block;
+}
